@@ -170,7 +170,11 @@ The whole site builds in about one second, so `mkdocs serve` refreshes instantly
 
 The publishing setup (GitHub Pages, free, HTTPS included) takes about ten minutes:
 
-1. **Create the repository and commit**
+> **Cloned or forked this repo?** Skip steps 1–2 — git is already set up. Push to
+> your own repository (if `git remote -v` still shows someone else's URL, run
+> `git remote set-url origin <your-repo-url>` first), then continue at step 3.
+
+1. **Downloaded the ZIP? Create the repository and commit**
    ```bash
    git init
    git add -A
@@ -184,7 +188,9 @@ The publishing setup (GitHub Pages, free, HTTPS included) takes about ten minute
    ```
 3. **Turn on Pages:** repo **Settings → Pages → Source: GitHub Actions** (the
    [Deploy docs](.github/workflows/deploy-docs.yml) workflow is already in this repo).
-4. **Push** — the workflow builds and publishes. Your link appears under
+4. **Push** — the workflow builds and publishes. If your first push happened
+   *before* you enabled Pages, re-run it: **Actions → Deploy docs → Re-run failed
+   jobs**. Your link appears under
    **Settings → Pages** (or the repo's **Actions** tab shows the deploy log).
 
 That's it. Every later push to `main` redeploys automatically.
