@@ -1,0 +1,25 @@
+/* Mermaid diagrams.
+   - Natural size with horizontal scroll: Material scales a wide diagram
+     down to the text column, which shrank labels to ~8px.
+   - Dark mode: the diagram sources hard-code light fills (see
+     basic statistics.md), so in the slate scheme the diagram keeps its
+     light palette and ink on a white card. */
+.md-typeset .mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .mermaid {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  --md-mermaid-label-fg-color: #36464e;
+  --md-mermaid-label-bg-color: #fff;
+  --md-mermaid-edge-color: #36464e;
+  --md-mermaid-node-fg-color: #0969da;
+  --md-default-fg-color--lightest: #00000012;
+  --md-default-fg-color--lighter: #00000052;
+  --md-default-bg-color: #fff;
+}

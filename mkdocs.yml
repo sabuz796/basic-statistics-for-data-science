@@ -1,0 +1,58 @@
+site_name: Basic Statistics for M.Sc Data Science
+# TODO: set your real address after creating the GitHub repo, e.g.
+# site_url: https://sabuz/basic-statistics/
+site_url: https://example.github.io/basic-statistics/
+repo_url: https://github.com/<you>/basic-statistics
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  # local mermaid so Material's built-in diagram support renders offline
+  - js/mermaid.min.js
+  - js/mermaid-config.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Part 0 — Orientation: part-00-orientation.md
+  - Part 1 — Descriptive: part-01-descriptive.md
+  - Part 2 — Probability: part-02-probability.md
+  - Part 3 — Distributions: part-03-distributions.md
+  - Part 4 — Sampling: part-04-sampling.md
+  - Part 5 — Testing: part-05-testing.md
+  - Part 6 — Regression: part-06-regression.md
+  - Part 7 — Practical: part-07-practical.md
+  - Appendices: appendices.md
+  - Closing: closing.md
