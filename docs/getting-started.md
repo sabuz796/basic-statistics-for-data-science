@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 🚀 Getting Started
 
 This book is written for a student who can code but feels uneasy about

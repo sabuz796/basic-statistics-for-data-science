@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 🧪 PART 5, Hypothesis Testing
 
 *How to make a defensible decision with real-world data.*

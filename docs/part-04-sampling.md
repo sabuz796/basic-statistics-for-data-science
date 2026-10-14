@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 🔍 PART 4, Sampling and Estimation
 
 *This is where statistics becomes genuinely powerful: drawing conclusions about

@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 📎 Appendices
 
 Formula sheets, cheat tables, worked practice questions, a glossary,

@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 📊 PART 1, Descriptive Statistics
 
 *Descriptive statistics answers: what shape is my data?*

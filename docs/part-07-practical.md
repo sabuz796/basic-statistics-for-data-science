@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 🛠️ PART 7, Non-Parametric Methods and Practical Data Science Topics
 
 *Real data breaks rules. This part covers what to do then.*

@@ -1,3 +1,6 @@
+> ⚠️ **Generated file — do not edit here.** Edit `basic-statistics.md` at the
+> repo root instead, then run `python3 split.py`.
+
 ## 🙌 Closing Note
 
 You have now seen the whole arc: **describe** your data (Part 1), **quantify
