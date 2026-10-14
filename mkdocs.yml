@@ -10,6 +10,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.footer
+    - navigation.instant
     - search.suggest
     - search.highlight
     - content.code.copy

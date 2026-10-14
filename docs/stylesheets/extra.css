@@ -23,3 +23,15 @@ body[data-md-color-scheme="slate"] .md-typeset .mermaid {
   --md-default-fg-color--lighter: #00000052;
   --md-default-bg-color: #fff;
 }
+
+/* Reading comfort: GitBook-style measure and rhythm.
+   - Cap the text column near 72 characters for a comfortable line length.
+   - Slightly larger base font and looser line-height for long-form reading. */
+.md-content__inner {
+  max-width: 48rem;
+}
+
+.md-typeset {
+  font-size: 0.72rem; /* Material default is 0.64rem */
+  line-height: 1.75;  /* Material default is 1.6 */
+}
