@@ -7,10 +7,13 @@
 ![SciPy](https://img.shields.io/badge/scipy-8CAAE6?logo=scipy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/statsmodels-3C3C3C?logo=python&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **~26,000 words · 8 parts + 5 appendices · 32 runnable Python examples · Beginner → Interview-ready**
+
+**This book is free, open source, and ad-free forever. No account, no tracking, no paywall.**
+If it helps you, give the repository a ⭐ so more students find it.
 
 ## Start reading
 
@@ -33,12 +36,12 @@ Read Parts 1 and 2 first. Everything else builds on them.
 pip install -r requirements.txt
 ```
 
-Every Python block is self-contained (or notes which earlier block it continues). All 32 were executed during review.
+Every Python block is self-contained (or notes which earlier block it continues). All 32 were executed during review — the printed output in the book is the real output.
 
 ## Contribute
 
-Typo, broken code, confusing paragraph? See [CONTRIBUTING.md](https://github.com/<you>/basic-statistics/blob/main/CONTRIBUTING.md). Small fixes welcome — plain language only.
+Typo, broken code, confusing paragraph? See [CONTRIBUTING.md](https://github.com/sabuz796/basic-statistics-for-data-science/blob/main/CONTRIBUTING.md) — small fixes welcome, plain language only. The full publishing setup (GitHub Pages) is in the repo root; see the [README](https://github.com/sabuz796/basic-statistics-for-data-science/blob/main/README.md).
 
 ## License
 
-MIT — see [LICENSE](https://github.com/<you>/basic-statistics/blob/main/LICENSE). Replace `<you>` with the real repo path after publishing.
+MIT — see [LICENSE](https://github.com/sabuz796/basic-statistics-for-data-science/blob/main/LICENSE).

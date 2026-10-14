@@ -1,8 +1,6 @@
 site_name: Basic Statistics for M.Sc Data Science
-# TODO: set your real address after creating the GitHub repo, e.g.
-# site_url: https://sabuz/basic-statistics/
-site_url: https://example.github.io/basic-statistics/
-repo_url: https://github.com/<you>/basic-statistics
+site_url: https://sabuz796.github.io/basic-statistics-for-data-science/
+repo_url: https://github.com/sabuz796/basic-statistics-for-data-science
 edit_uri: edit/main/docs/
 
 theme:
