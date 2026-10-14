@@ -2,6 +2,7 @@ site_name: Basic Statistics for M.Sc Data Science
 site_url: https://sabuz796.github.io/basic-statistics-for-data-science/
 repo_url: https://github.com/sabuz796/basic-statistics-for-data-science
 edit_uri: edit/main/docs/
+copyright: MIT © the contributors — free for everyone, forever.
 
 theme:
   name: material
