@@ -8,7 +8,7 @@ Write like a senior explaining to a junior over tea: short sentences, one daily-
 
 ## How files fit together
 
-- `basic statistics.md` is the **source of truth**. Edit this, not `docs/`.
+- `basic-statistics.md` is the **source of truth**. Edit this, not `docs/`.
 - `docs/*.md` are **generated** — after editing, run:
 
   ```bash
@@ -31,6 +31,8 @@ Write like a senior explaining to a junior over tea: short sentences, one daily-
 - Every Python block must run top-to-bottom after `pip install -r requirements.txt`.
 - Self-contained preferred. If a block continues an earlier one, start it with `# runs after the <name> block above`.
 - No new dependencies without discussion.
+- CI runs every block on Python 3.9 and 3.11 (`check_examples.py`) on each push and
+  weekly. Mark a block `# skip-ci` only if it genuinely cannot run unattended.
 
 ## Preview the site locally
 

@@ -82,7 +82,7 @@ then work through Parts 0–7 in order and finish with the [Closing](docs/closin
 |---|---|---|
 | **Online** (easiest) | Reading and searching | The published GitHub Pages site *(link below)* — sidebar, search, one short page at a time |
 | **On GitHub** | Browsing the raw text | Open [`docs/`](docs/) — one small file per part, renders fast |
-| **Single file** | Offline or printing | [`basic statistics.md`](basic%20statistics.md) — the whole book in one file, the source of truth |
+| **Single file** | Offline or printing | [`basic-statistics.md`](basic-statistics.md) — the whole book in one file, the source of truth |
 
 > 📖 **Read it online:** https://sabuz796.github.io/basic-statistics-for-data-science/
 
@@ -131,7 +131,7 @@ Nothing is behind an API or a paid service. Everything runs on your laptop in a 
 ## How the book is built
 
 ```
-basic statistics.md        ← SOURCE OF TRUTH: the whole book, one file
+basic-statistics.md        ← SOURCE OF TRUTH: the whole book, one file
         │
         │  python3 split.py   (runs before every commit)
         ▼
@@ -142,7 +142,7 @@ docs/                      ← 11 generated pages + hand-written index/mkdocs fi
 https://sabuz796.github.io/basic-statistics-for-data-science/
 ```
 
-- `basic statistics.md` — the single source of truth. **Edit this.**
+- `basic-statistics.md` — the single source of truth. **Edit this.**
 - `split.py` — splits it into one page per part for the website, and syncs the figures. Run it after
   every edit (`python3 split.py`), then commit both. It uses only the Python standard library.
 - `statistics-figures/` — the 32 original SVG figures. `split.py` copies them into `docs/` automatically.
@@ -202,7 +202,8 @@ explanation, one more worked answer.
 - Fix something? Open a Pull Request. Keep it small and focused.
 
 The rules that keep the book healthy:
-- Every Python block must run top-to-bottom after `pip install -r requirements.txt`.
+- Every Python block must run top-to-bottom after `pip install -r requirements.txt`
+  (CI re-runs all of them on Python 3.9 and 3.11).
 - Plain language first; the formula second.
 - No new dependencies without discussion.
 
