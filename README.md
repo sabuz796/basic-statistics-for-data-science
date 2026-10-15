@@ -1,4 +1,4 @@
-# 📊 Basic Statistics for M.Sc Data Science
+# 📊 Basic Statistics for Data Science
 
 > A plain-English guide to statistics for data science. Every idea comes with a picture
 > from daily life, a real-world use, the formula, and short Python you can actually run.
@@ -42,7 +42,7 @@ If you can write a for-loop but go quiet when someone says *"p-value"*, this boo
 
 | You are | This helps you |
 |---|---|
-| An M.Sc / undergrad data-science student | Pass the stats course and the interview that follows |
+| A data-science student | Pass the stats course and the interview that follows |
 | A self-taught developer moving into ML | Fill the math gaps people test you on |
 | A working analyst | Correctly use, and defend, t-tests, CIs, ANOVA, regression diagnostics |
 | A teacher or tutor | A free, printable coursebook with runnable examples |
@@ -178,7 +178,7 @@ The publishing setup (GitHub Pages, free, HTTPS included) takes about ten minute
    ```bash
    git init
    git add -A
-   git commit -m "Initial commit: Basic Statistics for M.Sc Data Science"
+   git commit -m "Initial commit: Basic Statistics for Data Science"
    ```
 2. **Create an empty repo on GitHub** (github.com/new — public, *do not* add a README), then:
    ```bash

@@ -1,4 +1,4 @@
-# 📊 Basic Statistics for M.Sc Data Science
+# 📊 Basic Statistics for Data Science
 
 > A plain guide to statistics for data science. Each idea comes with a picture from daily life, a real use, the formula, and short Python you can run.
 
